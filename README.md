@@ -20,6 +20,10 @@ Initial results show:
 - Up to **23% reduction in energy consumption** compared to SFU.
 - **100% accuracy** compared to CPU results (up to five decimal places).
 
+## Performance Optimization
+
+Based on performance benchmarking, the configuration of **warp size (32 threads per warp) and block size (8 warps per block)** was chosen. Various configurations were tested, and this setup provided the lowest execution time, ensuring optimal utilization of GPU resources.
+
 ## Future Updates
 
 - [ ] Upload complete implementation.
